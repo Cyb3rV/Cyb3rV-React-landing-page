@@ -8,7 +8,7 @@ export function MyNavbar() {
     <Navbar bg="dark" expand="sm" data-bs-theme="dark" className="sticky-top">
     <Container>
     <Navbar.Brand href="#home">Start Bootstrap</Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Toggle/>
     <Navbar.Collapse>
     <Nav className="ms-auto">
         <Nav.Link href="#home">Home</Nav.Link>
